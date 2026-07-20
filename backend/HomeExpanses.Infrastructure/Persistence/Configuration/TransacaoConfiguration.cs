@@ -29,7 +29,6 @@ namespace HomeExpanses.Infrastructure.Persistence.Configuration
             * dos números internos definidos no enum.
             */
             builder.Property(transacao => transacao.Tipo)
-                .HasConversion<string>()
                 .IsRequired()
                 .HasMaxLength(20);
             
