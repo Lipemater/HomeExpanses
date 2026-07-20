@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HomeExpanses.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3756dd166068369819dfb88a5bbe5d0a2dcbbb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0474c1a430c4f6ec07d979f7b2079f883dc12fab")]
 [assembly: System.Reflection.AssemblyProductAttribute("HomeExpanses.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HomeExpanses.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
