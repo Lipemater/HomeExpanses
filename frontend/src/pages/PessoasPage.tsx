@@ -90,7 +90,7 @@ export function PessoasPage() {
       idadeNumerica > 120
     ) {
       setErro(
-        'Informe uma idade inteira entre 0 e 150.',
+        'Informe uma idade inteira entre 0 e 120.',
       );
       return;
     }
