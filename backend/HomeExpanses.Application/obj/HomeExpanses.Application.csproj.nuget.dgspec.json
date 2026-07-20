@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj",
         "projectName": "HomeExpanses.Application",
-        "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj"
               }
             }
           }
@@ -47,6 +47,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -67,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj",
         "projectName": "HomeExpanses.Domain",
-        "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

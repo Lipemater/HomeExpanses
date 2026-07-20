@@ -1,0 +1,30 @@
+@host = http://localhost:5080
+
+### Listar pessoas
+GET {{host}}/api/totais
+Accept: application/json
+
+### Cadastrar pessoa adulta
+POST {{host}}/api/pessoas
+Content-Type: application/json
+
+{
+  "nome": "Julia",
+  "idade": 15
+}
+
+### Cadastrar Trasações
+POST {{host}}/api/transacoes
+Content-Type: application/json
+
+{
+  "descricao": "Festa",
+  "valor": 1000,
+  "tipo": "Despesa",
+  "pessoaId": 3
+}
+
+### Cadastrar receita para adulto
+DELETE {{host}}/api/pessoas/4
+Content-Type: application/json
+

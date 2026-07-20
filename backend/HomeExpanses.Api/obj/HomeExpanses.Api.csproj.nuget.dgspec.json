@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Api\\HomeExpanses.Api.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Api\\HomeExpanses.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Api\\HomeExpanses.Api.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Api\\HomeExpanses.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Api\\HomeExpanses.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Api\\HomeExpanses.Api.csproj",
         "projectName": "HomeExpanses.Api",
-        "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Api\\HomeExpanses.Api.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Api\\HomeExpanses.Api.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Api\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj"
               },
-              "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj"
               }
             }
           }
@@ -52,6 +52,12 @@
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.9, )"
             }
@@ -79,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj",
         "projectName": "HomeExpanses.Application",
-        "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -101,8 +107,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj"
               }
             }
           }
@@ -122,6 +128,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -142,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj",
         "projectName": "HomeExpanses.Domain",
-        "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -201,14 +213,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj",
         "projectName": "HomeExpanses.Infrastructure",
-        "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -223,8 +235,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj"
+              },
+              "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj"
               }
             }
           }
@@ -244,6 +259,26 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
