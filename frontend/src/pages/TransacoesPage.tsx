@@ -286,6 +286,7 @@ export function TransacoesPage() {
           <select
             id="pessoa"
             name="pessoa"
+
             value={pessoaId}
             onChange={handlePessoaChange}
             required
@@ -294,11 +295,17 @@ export function TransacoesPage() {
               pessoas.length === 0
             }
           >
+            <option value="" disabled>
+              Selecionar
+            </option>
+
             {pessoas.length === 0 && (
               <option value="">
                 Nenhuma pessoa disponível
               </option>
             )}
+
+            
 
             {pessoas.map((pessoa) => (
               <option
