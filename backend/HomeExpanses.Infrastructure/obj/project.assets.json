@@ -3120,19 +3120,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marco\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj",
       "projectName": "HomeExpanses.Infrastructure",
-      "projectPath": "C:\\Users\\marco\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\HomeExpanses.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -3144,11 +3144,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\marco\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {
-              "projectPath": "C:\\Users\\marco\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj"
+            "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Application\\HomeExpanses.Application.csproj"
             },
-            "C:\\Users\\marco\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
-              "projectPath": "C:\\Users\\marco\\OneDrive\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj"
+            "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Marcos_vs\\HomeExpanses\\backend\\HomeExpanses.Domain\\HomeExpanses.Domain.csproj"
             }
           }
         }
@@ -3163,7 +3163,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -3204,7 +3204,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -16,5 +16,8 @@ namespace HomeExpanses.Application.Abstractions.Persistence
             CancellationToken cancellationToken = default);
 
         void Remover(Pessoa pessoa);
+
+        Task ReordenarIdsAsync(
+            CancellationToken cancellationToken = default);
     }
 }

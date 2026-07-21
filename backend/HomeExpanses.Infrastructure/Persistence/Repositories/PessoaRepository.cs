@@ -37,5 +37,43 @@ namespace HomeExpanses.Infrastructure.Persistence.Repositories
         {
             _dbContext.Pessoas.Remove(pessoa);
         }
+
+        public async Task ReordenarIdsAsync(CancellationToken cancellationToken = default)
+        {
+            await _dbContext.Database.ExecuteSqlRawAsync(
+                """
+                WITH Numeradas AS (
+                    SELECT Id,
+                           ROW_NUMBER() OVER (ORDER BY Id) AS NovoId
+                    FROM Pessoas
+                )
+                UPDATE Pessoas
+                SET Id = (
+                    SELECT NovoId
+                    FROM Numeradas
+                    WHERE Numeradas.Id = Pessoas.Id
+                );
+
+                WITH Numeradas AS (
+                    SELECT Id,
+                           ROW_NUMBER() OVER (ORDER BY Id) AS NovoId
+                    FROM Pessoas
+                )
+                UPDATE Transacoes
+                SET PessoaId = (
+                    SELECT NovoId
+                    FROM Numeradas
+                    WHERE Numeradas.Id = Transacoes.PessoaId
+                );
+
+                DELETE FROM sqlite_sequence
+                WHERE name = 'Pessoas';
+
+                INSERT INTO sqlite_sequence(name, seq)
+                SELECT 'Pessoas', COALESCE(MAX(Id), 0)
+                FROM Pessoas;
+                """,
+                cancellationToken);
+        }
     }
 }

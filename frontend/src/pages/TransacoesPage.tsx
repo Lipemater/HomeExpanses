@@ -80,11 +80,7 @@ export function TransacoesPage() {
           transacoesRecebidas,
         );
 
-        if (pessoasRecebidas.length > 0) {
-          setPessoaId(
-            String(pessoasRecebidas[0].id),
-          );
-        }
+        
       } catch (error) {
         if (componenteAtivo) {
           setErro(
@@ -298,13 +294,6 @@ export function TransacoesPage() {
             <option value="" disabled>
               Selecionar
             </option>
-
-            {pessoas.length === 0 && (
-              <option value="">
-                Nenhuma pessoa disponível
-              </option>
-            )}
-
             
 
             {pessoas.map((pessoa) => (

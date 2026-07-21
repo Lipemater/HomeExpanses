@@ -54,6 +54,8 @@ namespace HomeExpanses.Application.Services
 
             _pessoaRepository.Remover(pessoa);
             await _unitOfWork.SaveChangesAsync(cancellationToken);
+            await _pessoaRepository.ReordenarIdsAsync(cancellationToken);
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
         }
 
         private static PessoaResponse Mapear(Pessoa pessoa)

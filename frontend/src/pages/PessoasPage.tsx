@@ -43,7 +43,8 @@ export function PessoasPage() {
         const dados = await pessoasService.listar();
 
         if (componenteAtivo) {
-          setPessoas(dados);
+          const dadosOrdenados = [...dados].sort((a, b) => a.id - b.id);
+          setPessoas(dadosOrdenados);
         }
       } catch (error) {
         if (componenteAtivo) {
@@ -104,10 +105,10 @@ export function PessoasPage() {
           idade: idadeNumerica,
         });
 
-      setPessoas((pessoasAtuais) => [
-        ...pessoasAtuais,
-        pessoaCriada,
-      ]);
+      setPessoas((pessoasAtuais) => {
+        const listaAtualizada = [...pessoasAtuais, pessoaCriada];
+        return listaAtualizada.sort((a, b) => a.id - b.id);
+      });
 
       setNome('');
       setIdade('');
@@ -144,11 +145,11 @@ export function PessoasPage() {
         pessoa.id,
       );
 
-      setPessoas((pessoasAtuais) =>
-        pessoasAtuais.filter(
-          (item) => item.id !== pessoa.id,
-        ),
-      );
+      const pessoasAtualizadas =
+        await pessoasService.listar();
+
+      const pessoasAtualizadasOrdenadas = [...pessoasAtualizadas].sort((a, b) => a.id - b.id);
+      setPessoas(pessoasAtualizadasOrdenadas);
 
       setMensagem(
         'Pessoa e suas transações foram excluídas.',
